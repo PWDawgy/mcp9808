@@ -1,0 +1,347 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"INCLUDE_DIRS"
+			],
+			[
+				"MA",
+				"MAKEFILE_DIR"
+			],
+			[
+				"C",
+				"COBJECTS"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"preferences: ",
+				"Preferences: Settings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses"
+	],
+	"file_history":
+	[
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/src/drivers/mcp9808_driver/mcp9808_driver.c",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/tests/mcp9808_driver/test_runner.cpp",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/tests/mcp9808_driver/test_mcp9808.cpp",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/tests/mcp9808_driver/run_tests.sh",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/tests/mcp9808_driver/docker-compose.yml",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/tests/mcp9808_driver/start_dev_session.sh",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/tests/mcp9808_driver/clean_up.sh",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/Dockerfile",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/tests/MCP9808_Driver/Makefile",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/tests/MCP9808_Driver/test_runner.cpp",
+		"/D/Projects/c-unit-test-main/Makefile",
+		"/D/Projects/c-unit-test-main/src/main.c",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/Makefile",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/src/main.c",
+		"/D/Projects/c-unit-test-main/tests/average/test.cpp",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/tests/Makefile",
+		"/D/Projects/c-unit-test-main/src/average/average.h",
+		"/D/Projects/c-unit-test-main/src/average/average.c",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/src/drivers/mcp9808_driver.c",
+		"/D/Projects/c-unit-test-main/tests/Makefile",
+		"/D/Projects/c-unit-test-main/tests/average/Makefile",
+		"/D/Projects/c-unit-test-main/README.md",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/src/drivers/mcp9808_driver.h",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/tests/test_runner.c",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/tests/MakeFile",
+		"/D/Projects/c-unit-test-main/tests/average/main.cpp",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/tests/test_mcp9808.c",
+		"/D/Projects/Digikey/c-unit-test/README.md",
+		"/D/Projects/Digikey/c-unit-test/src/main.c",
+		"/D/Projects/Digikey/c-unit-test/Dockerfile",
+		"/D/Projects/Digikey/c-unit-test/Makefile",
+		"/D/Projects/Digikey/c-unit-test/tests/average/Makefile",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/src/hal/i2c_hal.h",
+		"/D/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/src/drivers/drivers.md",
+		"/D/code/Projects/Blinky/src/main.c",
+		"/D/Projects/ScalyCare/ThermoChirp/nRF5_SDK_17.1.0_ddde560/examples/peripheral/blinky/pca10040/blank/ses/Output/Debug/Exe/flash_device.sh",
+		"/D/Projects/ScalyCare/JlinkScriptBuilder.md",
+		"/D/Projects/ScalyCare/Batch_and_Bash_Flashing_Guide.md",
+		"/D/Projects/ScalyCare/ThermoChirp/EnvironmentSetup.md",
+		"/D/Projects/ScalyCare/VisualStudioSetup.md",
+		"/D/Projects/ScalyCare/README.md",
+		"/D/Projects/ScalyCare/ThermoChirp/ThermoChirpProjectRequirements.md",
+		"/D/Projects/ScalyCare/ThermoChirp/ThermoChirpRequirements.md",
+		"/D/Projects/ScalyCare/SublimeText3Setup.md",
+		"/D/Projects/ScalyCare/ScalyCare.md",
+		"/D/Projects/Isopod/code/ScalyCare/ThermoChirp/EnvironmentSetup.md",
+		"/D/Projects/Isopod/code/ScalyCare/ThermoChirp/ThermoChirpProjectRequirements.md",
+		"/D/Projects/Isopod/code/ScalyCare/ThermoChirp/ThermoChirpRequirements.md",
+		"/D/Projects/Isopod/code/ScalyCare/ThermoChirp/ThermoChirpGoals.md",
+		"/D/Projects/Isopod/code/ScalyCare/ScalyCare.md",
+		"/D/Projects/Isopod/code/ScalyCare/README.md",
+		"/D/Projects/Isopod/code/embedded/README.md",
+		"/D/Projects/PythonPrograms/FormatZSensorReport/formatZSensorReport.py",
+		"/D/Projects/PythonTutorials/projects/simple_serial_reader/serial_to_file.py",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/scController/localSimpleMessageProtocol.c",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/scController/protocol/packet.h",
+		"/D/Projects/PythonTutorials/How to Develop a Multithreaded Port Scanner in Python/SingleThreadedPortScanner.py",
+		"/D/Projects/PythonTutorials/How to Develop a Multithreaded Port Scanner in Python/README.md",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/scController/protocol/firmware_pcl.c",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/scController/scOta.c",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/storage/spiflashUsage.h",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/scController/scOta.h",
+		"/D/Projects/Digi/gateways/LCN/cell-node-bootloader/src/SmartSense/update_nrf.c",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/scController/scFirmware.c",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/main_gateway.c",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/monitor/sensors_task.c",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/scController/scController_task.c",
+		"/D/Projects/Embedded_CICD_w_HIL/ci-cd-hil/Core/Src/main.c",
+		"/D/Projects/Embedded_CICD_w_HIL/class-demo/ci-cd-class-1-hil-sim/Core/Src/main.c",
+		"/D/Projects/Embedded_CICD_w_HIL/ci-cd-class-1/App/gpio-app/app_main.c",
+		"/D/Projects/Embedded_CICD_w_HIL/ci-cd-class-1/.gitignore",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/bleMgr/bsense_gateway/bsense_ignoreList.h",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/mods/cli/cmdBle.c",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/mods/cli/cli.c",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/bleMgr/bsense_gateway/bsense_ignoreList.c",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/bleMgr/bsense_gateway/bsense_gateway_task.c",
+		"/D/Projects/Digi/gateways/LCN/cell-node/src/bleMgr/bsense_gateway/bsense_conn.c",
+		"/D/Projects/Digi/gateways/LCN/v1.73/src/mods/stofwd/stoFwd.c",
+		"/D/Projects/Digi/gateways/LCN/LCN-2910-implement-the-core-reset/src/zpoint/zpoint_packet.h",
+		"/D/Projects/Digi/gateways/LCN/LCN-2910-implement-the-core-reset/src/mods/cli/cli.c",
+		"/D/Projects/Digi/gateways/LCN/LCN-2910-implement-the-core-reset/src/mods/cli/cmdZpoint.c",
+		"/D/Projects/Digi/gateways/LCN/LCN-2910-implement-the-core-reset/src/zpoint/zpoint_gateway_task.c",
+		"/D/Projects/Digi/gateways/LCN/LCN-2910-implement-the-core-reset/src/zpoint/zpoint_packet.c",
+		"/D/Projects/Digi/gateways/LCN/LCN-2910-implement-the-core-reset/src/zpoint/zpoint_utils.c",
+		"/C/Users/doddw/AppData/Local/Temp/2d9cc42b-41a0-4054-ad57-ddfb3076f291_Adafruit-Huzzah-ESP8266-Basic-Breakout-PCB-master.zip.291/Adafruit-Huzzah-ESP8266-Basic-Breakout-PCB-master/README.md",
+		"/D/Projects/Third_party/jwgrenning/TDDEmbeddedC/code/src/util/CircularBuffer.c",
+		"/D/Projects/Third_party/jwgrenning/TDDEmbeddedC/code/src/dvr/DvRecorder.c",
+		"/M/projects/nRF24L01-Sensor-Network-that-Connects-to-the-Cloud/README.md",
+		"/D/Projects/Third_party/jwgrenning/TDDEmbeddedC/code/src/eyeMovement/eye.c",
+		"/D/Projects/Third_party/jwgrenning/TDDEmbeddedC/code/src/util/Utils.c",
+		"/D/Projects/Third_party/jwgrenning/TDDEmbeddedC/code/src/zune/RtcTime.c",
+		"/D/code/Digi/Elm/Legacy/Shield/shield-atmel/Shield/Shield/src/SystemMenu.h",
+		"/D/code/Nordic/nRF5_SDK_15.3.0_59ac345/examples/peripheral/saadc/main.c",
+		"/D/code/Projects/Isopod/assets/b-parasite/flashing/pyocd/README.md",
+		"/D/code/Projects/Isopod/code/embedded/src/sensors/moisture/ek1940/EK1940_CAP_MOISTURE.md",
+		"/D/code/Projects/Isopod/code/embedded/tests/sensors/moisture/ek1940/Makefile",
+		"/D/code/Projects/Isopod/code/embedded/README.md",
+		"/D/code/Projects/Reptopia/Isopod/tests/sensors/moisture/ek1940/test.cpp",
+		"/D/code/TDDEmbeddedC/code/tests/LedDriver/LedDriverTest.cpp",
+		"/D/code/cpputest-starter-project/tests/MyFirstTest.cpp",
+		"/D/code/cpputest-starter-project/tests/ExampleTest.cpp",
+		"/D/code/Projects/Reptopia/Isopod/src/sensors/moisture/ek1940/EK1940_CAP_MOISTURE.md",
+		"/D/code/Projects/Reptopia/Isopod/src/sensors/light/GUVA-S12SD/GUVA-S12SD.md",
+		"/D/code/Projects/c-unit-test/tests/average/main.cpp",
+		"/D/code/Projects/Reptopia/Isopod/.gitignore",
+		"/D/code/MyProjects/c-unit-test/Makefile",
+		"/D/code/MyProjects/c-unit-test/Dockerfile",
+		"/D/code/MyProjects/c-unit-test/src/average/average.h",
+		"/D/code/MyProjects/c-unit-test/src/average/average.c",
+		"/D/code/MyProjects/c-unit-test/tests/average/Makefile",
+		"/D/code/MyProjects/c-unit-test/tests/average/test.cpp",
+		"/D/code/MyProjects/c-unit-test/README.md",
+		"/D/code/MyProjects/c-unit-test/tests/average/main.cpp",
+		"/D/code/MyProjects/c-unit-test/tests/Makefile",
+		"/D/code/MyProjects/c-unit-test/src/main.c",
+		"/D/code/MyProjects/c-unit-test/MakeFile",
+		"/D/code/tools/archive/code/SandBox/src/LedDriver/LedDriver.c",
+		"/D/code/tools/archive/code/SandBox/unity/LedDriver/LedDriverTest.c",
+		"/D/code/tools/archive/code/include/LedDriver/LedDriver.h",
+		"/D/code/tools/archive/code/mocks/cmock/MockIO.c",
+		"/D/code/cpputest-starter-project/makefile",
+		"/D/code/tools/cpputest/test-suite.log",
+		"/D/code/tools/cpputest/tests/MemoryOperatorOverloadTest.cpp",
+		"/D/code/cpputest-starter-project/README.md",
+		"/D/code/tools/cpputest/README.md",
+		"/D/code/tools/cpputest/CMakeFiles/CMakeError.log",
+		"/D/code/tools/cpputest/src/CppUTest/CMakeIntegration-README.md",
+		"/D/code/tools/cpputest/build/MakefileWorker.mk"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 133.600006104,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mcp9808_driver.sublime-project",
+	"replace":
+	{
+		"height": 52.8
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"lsp_show_inlay_hints": false
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

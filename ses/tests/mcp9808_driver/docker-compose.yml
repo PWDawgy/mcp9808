@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  dev-session:
+    image: unit-tests-image
+    volumes:
+      - D:/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/src:/project/src
+      - D:/Projects/ScalyCare/ThermoChirp/MCP9808_Driver/ses/tests:/project/tests
+    working_dir: /project
+    entrypoint: ["make", "-C", "/project"]
