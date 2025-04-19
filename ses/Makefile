@@ -2,8 +2,6 @@
 CC ?= gcc
 CXX ?= g++
 
-@echo "DEBUG (Global): LDFLAGS = $(LDFLAGS)"
-
 # Settings
 SRC_DIR = ./src
 TEST_DIR = ./tests
@@ -11,11 +9,11 @@ BUILD_DIR = .
 NAME = app.elf
 
 # Search path for header files
-CFLAGS += -I$(SRC_DIR)/drivers/mcp9808_driver
+CFLAGS += -I$(SRC_DIR)/drivers/mcp9808
 
 # List module source files
 CSOURCES = $(SRC_DIR)/main.c
-CSOURCES += $(wildcard $(SRC_DIR)/drivers/mcp9808_driver/*.c)
+CSOURCES += $(wildcard $(SRC_DIR)/drivers/mcp9808/*.c)
 
 # Compiler flags
 CFLAGS += -Wall
@@ -33,16 +31,11 @@ all: $(NAME)
 # Build components
 $(COBJECTS) : %.o : %.c
 %.o: %.c
-	@echo "LDFLAGS: $(LDFLAGS)"
-	@echo "Linking command: $(CC) $(COBJECTS) -o $(BUILD_DIR)/$(NAME) $(LDFLAGS)"
-	$(CC) $(CFLAGS) $(CXXFLAGS) $(CPPFLAGS) -c $< -o $@ 
+	$(CC) $(CFLAGS) -c $< -o $@
 
 # Build the target application
 .PHONY: $(NAME)
 $(NAME): $(COBJECTS)
-	@echo "LDFLAGS: $(LDFLAGS)"
-	@echo "Linking command: $(CC) $(COBJECTS) -o $(BUILD_DIR)/$(NAME) $(LDFLAGS)"
-	@echo "LDFLAGS in subdirectory: $(LDFLAGS)"
 	$(CC) $(COBJECTS) -o $(BUILD_DIR)/$(NAME) $(LDFLAGS)
 
 # Remove compiled object files

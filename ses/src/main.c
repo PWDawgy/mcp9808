@@ -1,6 +1,8 @@
-#include "drivers/mcp9808_driver/mcp9808.h"
+#include <stdio.h>
+#include "drivers/mcp9808.h"
 
-int main(void)
+int main()
 {
-    return 0;
+    return MCP9808_Init();
+    
 }
