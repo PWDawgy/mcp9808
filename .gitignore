@@ -1,8 +1,10 @@
 # C/C++ output
 *.o
+*.d
 *.obj
 *.out
 *.elf
+*.a
 
 # CppUTest framework
 cpputest/
