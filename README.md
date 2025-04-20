@@ -31,8 +31,8 @@ This project provides a basic implementation of a temperature sensor driver for 
 Build and run the development environment inside Docker:
 
 ```bash
-docker build -t mcp9808-dev docker/
-docker run -it --rm -v $(pwd):/workspace mcp9808-dev
+docker build -t unit-tests-image -f Dockerfile .
+docker run --rm unit-tests-image
 ```
 
 ### 📦 Build the Project
