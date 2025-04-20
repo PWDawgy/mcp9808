@@ -26,14 +26,36 @@ This project provides a basic implementation of a temperature sensor driver for 
 - Nordic nRF52 DK (PCA10040 or compatible)
 - GNU Make
 
-### 🐳 Using Docker
+🐳 Using Docker
+To avoid rebuilding the Docker image every time your source code changes, we separate the build environment from the actual code. Here's how:
 
-Build and run the development environment inside Docker:
+📦 1. Build the Docker Image
+Run this command from the directory containing the Dockerfile:
 
 ```bash
+
 docker build -t unit-tests-image -f Dockerfile .
-docker run --rm unit-tests-image
 ```
+This creates an image named unit-tests-image with all required dependencies for building and testing the driver.
+
+🚀 2. Run the Container with Your Code
+To mount your src/ and tests/ directories into the container at runtime (so changes are picked up immediately), use the following command:
+
+```bash
+docker run --rm ^
+  -v "D:/Projects/ScalyCare/ThermoChirp/MCP9808/ses/src:/project/src" ^ 
+  -v "D:/Projects/ScalyCare/ThermoChirp/MCP9808/ses/tests:/project/tests" unit-tests-image
+```
+Adjust the volume paths if your project layout changes. The ^ symbol is used for multi-line commands in Windows PowerShell or Command Prompt. Use \ instead for Unix shells.
+
+Inside the container, make and other tools can access /project/src and /project/tests as if they were local folders.
+
+💡 Benefits
+No need to rebuild the Docker image for every code change.
+
+Fast development loop: edit code on your host, test inside Docker instantly.
+
+Clean and repeatable development environment across machines.
 
 ### 📦 Build the Project
 
