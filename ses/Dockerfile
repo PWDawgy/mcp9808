@@ -4,16 +4,15 @@ FROM ubuntu:22.04
 # Install build tools
 RUN apt update && \
     apt install -y wget build-essential autoconf automake libtool
-    
-# Copy project into image
-RUN mkdir /project
-COPY src /project/src
-COPY tests /project/tests
+
+# Create necessary directories for mounting
+RUN mkdir -p /project/src /project/tests /project/tools
+
+# Copy only the Makefile
 COPY Makefile /project/Makefile
 
 # Download and build CppUTest
-RUN mkdir /project/tools/ && \
-    cd /project/ && \
+RUN cd /project/ && \
     wget https://github.com/cpputest/cpputest/releases/download/v4.0/cpputest-4.0.tar.gz && \
     tar xf cpputest-4.0.tar.gz && \
     mv cpputest-4.0/ tools/cpputest/ && \
@@ -21,6 +20,6 @@ RUN mkdir /project/tools/ && \
     autoreconf -i && \
     ./configure && \
     make
-    
-# Execute script
+
+# Set the entry point
 ENTRYPOINT ["make", "test", "-C", "/project/"]
