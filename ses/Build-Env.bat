@@ -1,0 +1,1 @@
+docker build -t unit-tests-image -f Dockerfile .
