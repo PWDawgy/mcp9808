@@ -1,6 +1,12 @@
 # Name of component under test
 COMPONENT_NAME = mcp9808
 
+# Enable CppUTest Extensions library (libCppUTestExt.a)
+# This is required for using features such as mocking (MockSupport, etc.)
+# makefileworker.mk automatically includes libCppUTest.a,
+# but will only include libCppUTestExt.a if CPPUTEST_USE_EXTENSIONS is set to Y.
+CPPUTEST_USE_EXTENSIONS = Y
+
 # Dynamically generate absolute paths
 # From https://matheusmbar.com/bugfree-robot/2019/04/05/makefile-first-test.html
 MAKEFILE_DIR = $(dir $(realpath $(firstword $(MAKEFILE_LIST))))

@@ -7,9 +7,12 @@ extern "C" {
 
 TEST_GROUP(MCP9808_InitTests) {
     void setup() {
+        mock().clear();
+
     }
 
     void teardown() {
+        mock().clear();
     }
 };
 
