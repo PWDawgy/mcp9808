@@ -86,5 +86,32 @@ TEST(MCP9808_InitTests, InitDoesNotReinitializeIfCalledTwice)
 
     // No second call to init or enable
     mock().checkExpectations();
-    mock().clear();
+}
+
+extern "C" void mcp9808_test_set_twim_instance(const nrfx_twim_t*);
+
+TEST_GROUP(Mcp9808VerifyTests) {
+    nrfx_twim_t dummy_instance; 
+    nrfx_twim_xfer_desc_t xfer_desc;
+    uint32_t flags;
+
+    void setup() {
+        memset(&dummy_instance, 0, sizeof(dummy_instance));
+        memset(&xfer_desc, 0, sizeof(xfer_desc));
+        mcp9808_test_set_twim_instance(&dummy_instance); // fake or stubbed twim instance
+    }
+
+    void teardown() {
+        mock().checkExpectations();
+        mock().clear();
+    }
+};
+
+TEST(Mcp9808VerifyTests, VerifyCallsTwimXfer)
+{
+    mock().expectOneCall("nrfx_twim_xfer")
+            .ignoreOtherParameters()
+            .andReturnValue(NRFX_SUCCESS);
+
+    mcp9808_verfiy();
 }

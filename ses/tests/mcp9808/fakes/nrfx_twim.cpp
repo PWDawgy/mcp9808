@@ -33,7 +33,7 @@ void nrfx_twim_enable(const nrfx_twim_t* p_instance)
 ret_code_t nrfx_twim_xfer(const nrfx_twim_t * p_instance, const nrfx_twim_xfer_desc_t * p_xfer_desc, uint32_t flags)
 {
     return mock()
-        .actualCall("nrfx_twim_init")
+        .actualCall("nrfx_twim_xfer")
         .withPointerParameter("p_instance", (void*)p_instance)
         .withPointerParameter("p_xfer_desc", (void*)p_xfer_desc)
         .withParameter("flags", flags)
